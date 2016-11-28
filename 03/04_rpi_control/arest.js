@@ -5,6 +5,7 @@ var piREST = require('pi-arest')(app);
 
 piREST.set_id('34f5eQ');
 piREST.set_name('my_new_Pi');
+piREST.set_mode('rpi');
 
 var server = app.listen(80, function() {
     console.log('Listening on port %d', server.address().port);
