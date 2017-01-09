@@ -7,7 +7,7 @@
 byte mac[] = { 0x90, 0xA2, 0xDA, 0x0E, 0xFE, 0x40 };
 
 // IP address in case DHCP fails
-IPAddress ip(192,168,1,2);
+IPAddress ip(192,168,1,5);
 
 // Ethernet server
 EthernetServer server(80);

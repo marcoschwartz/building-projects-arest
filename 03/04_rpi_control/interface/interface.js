@@ -2,7 +2,7 @@ if (Meteor.isServer) {
   Meteor.startup(function () {
 
     // Add device
-    aREST.addDevice('http', '192.168.115.107');
+    aREST.addDevice('http', '192.168.0.104');
 
   });
 }
