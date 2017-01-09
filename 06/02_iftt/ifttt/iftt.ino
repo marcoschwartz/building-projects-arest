@@ -14,7 +14,7 @@ DHT dht(DHTPIN, DHTTYPE, 15);
 // IFTTT settings
 const char* host = "maker.ifttt.com";
 const char* eventName = "alert";
-const char* key = "dPMHywdahaSxQZlCaoqnzHxcQ8vNYsTlk-42gSLAFQP";
+const char* key = "key";
 
 // Clients
 WiFiClient espClient;
